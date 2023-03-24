@@ -3,7 +3,7 @@ import axios from "axios";
 const apiURL = "https://node-todo-app-rohan-maher-2023.onrender.com";
 
 export function getTasks() {
-  return axios.get(apiURL + "s");
+  return axios.get(apiURL + "s"); 
 }
 
 export async function addTask(task) {
